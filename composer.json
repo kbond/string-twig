@@ -1,0 +1,23 @@
+{
+    "name": "zenstruck/string-twig",
+    "type": "library",
+    "description": "Twig integration for zenstruck/string.",
+    "keywords": ["string", "twig"],
+    "homepage": "http://zenstruck.com/projects/string-twig",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Bond",
+            "email": "kevinbond@gmail.com"
+        }
+    ],
+    "require": {
+        "zenstruck/string": "~0.1",
+        "twig/twig": "~1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zenstruck\\String\\Bridge\\Twig\\": "src/"
+        }
+    }
+}

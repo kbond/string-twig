@@ -1,0 +1,16 @@
+--TEST--
+"zenstruck_string" filters
+--TEMPLATE--
+{{ (' ')|null_trim }}
+{{ 'foo'|null_trim }}
+{{ 'foo bar'|truncate_word }}
+{{ 'foo bar'|truncate_word(6) }}
+{{ 'foo    bar   '|remove_whitespace }}
+--DATA--
+return array()
+--EXPECT--
+
+foo
+foo bar
+foo...
+foo bar
