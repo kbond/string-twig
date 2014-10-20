@@ -1,6 +1,8 @@
 <?php
 
-namespace Zenstruck\String\Bridge\Twig;
+namespace Zenstruck\String\Tests\Bridge\Twig;
+
+use Zenstruck\String\Bridge\Twig\StringExtension;
 
 /**
  * @author Kevin Bond <kevinbond@gmail.com>

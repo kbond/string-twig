@@ -16,6 +16,6 @@
         "twig/twig": "~1.12"
     },
     "autoload": {
-        "psr-0": { "Zenstruck": "src/" }
+        "psr-4": { "Zenstruck\\String\\Bridge\\Twig\\": "src/" }
     }
 }
