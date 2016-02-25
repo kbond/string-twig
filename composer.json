@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "zenstruck/string": "~0.1",
-        "twig/twig": "~1.12"
+        "zenstruck/string": "^1.0",
+        "twig/twig": "^1.12"
     },
     "autoload": {
         "psr-4": { "Zenstruck\\String\\Bridge\\Twig\\": "src/" }
