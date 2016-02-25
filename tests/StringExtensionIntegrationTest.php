@@ -12,7 +12,7 @@ class StringExtensionIntegrationTest extends \Twig_Test_IntegrationTestCase
     protected function getExtensions()
     {
         return array(
-            new StringExtension()
+            new StringExtension(),
         );
     }
 
