@@ -13,9 +13,9 @@ class StringExtension extends \Twig_Extension
     public function getFilters()
     {
         return array(
-            new \Twig_SimpleFilter('remove_whitespace', '\zenstruck\string\remove_whitespace'),
-            new \Twig_SimpleFilter('null_trim', '\zenstruck\string\null_trim'),
-            new \Twig_SimpleFilter('truncate_word', '\zenstruck\string\truncate_word'),
+            new \Twig_SimpleFilter('remove_whitespace', 'remove_whitespace'),
+            new \Twig_SimpleFilter('null_trim', 'null_trim'),
+            new \Twig_SimpleFilter('truncate_word', 'truncate_word'),
         );
     }
 
