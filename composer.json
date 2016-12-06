@@ -17,5 +17,10 @@
     },
     "autoload": {
         "psr-4": { "Zenstruck\\String\\Bridge\\Twig\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
     }
 }
